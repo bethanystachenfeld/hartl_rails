@@ -8,5 +8,8 @@ class ApplicationController < ActionController::Base
   def goodbye
     render html: "¡adios, mundo!"
   end
+  def andrew
+    render html: "Hello my sweet love, I can talk to you through the interwebs. Love you <3 <3 <3"
+  end
 
 end
